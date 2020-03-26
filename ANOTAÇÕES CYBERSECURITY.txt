@@ -1,0 +1,113 @@
+Hacktivismo - piratear ou invadir um sistema informático por motivos políticos ou sociais
+
+Conceito de Cybersecurity -> Conjunto de normas, procedimentos, boas práticas e tudo que ajuda a prevenção de riscos no ambiente Cyber
+
+Fraude - conduta anti-jurídica
+
+Ransonware - códigos maliciosos que se aproveitam de privilégios dos usuário (roubo de informações)
+
+WannaCry - se aproveita de tudo que o usuário pode fazer normalmente, coloca o usuário refém
+
+CiberSecurity - reforçar a segurança da informação
+-------------------------------------------------
+
+Motivação de Vetores de Ataque
+
+Vetor do ataque - meio utilizado para desferir o ataque
+
+Malware - todo e qualquer tipo de código malicioso
+PoS Malware - 
+Account Hijacking - Roubo de credenciais
+Fishing - E-mail falso na tentativa de fisgar uma vítima desavisada
+Brute Force - Testar as credenciais de usuário
+
+Moticos por trás de um ataque
+
+-ameaça - algo que pode causar um mal/prejuízo
+-cybercrime - qualquer conduta antijurídica cometida contra um -sistema computacional
+-Espionagem eletrónica 
+-Guerra cibernética
+TRATE AS CAUSAS E NÃO OS EFEITOS
+
+bootloader - programa específico para permitir a inicialização do sistema operacional
+dropper - parte do software que instala o código malicioso
+
+-----------------------------------------------------------------
+	CYBERSECURITY VS INFORMATION SECURITY
+
+A informação é um ativo altamente relevante para os negócios de uma empresa
+ SI - proteção da informação contra diferentes tipos de ameaça, dando continuidade ao negócio e minimizar os risco.
+
+
+	CID(PILARES BÁSICOS DA SI)
+
+Confidencialidade: a informação só deve ser revalada para 
+aqueles que tem autorização
+
+Integridade: A informação deve garantir exatidão, suas alterações devem ser legítimas
+
+Disponibilidade: Garantia que a informação está sempre acessível aqueles que possuem autorização
+
+não repudio:garante que o autor não negue a criação e assinatura de um documento
+
+Autenticidade: determinar a validade da transmissão 
+
+ROI - retorno sobre o investimento
+ROSI - retorno sobre o investimento em segurança da informação)
+Como a segurança não visa obtenção de lucro, é avaliado o prejuízo que seria causado caso houvesse alguma falha de segurança
+
+Curva de tolerância a riscos - mitigação dos riscos em função dos investimentos recebidos
+
+SISP - Sistema de administração dos recursos de tecnologia da informação (Poder Executivo Federal)
+
+*Privilégios mínimos: os usuários tem seus recursos de informática limitados ao mínimo que eles precisam para desempenhar suas funções
+
+-----------------------------------------------------------------------------------------------------------
+*Defesa em profundidade: Implementação de um sistema defensivo na forma de camadas no qual diferentes mecanismos de proteção se complementam
+
+segurança física e ambiental : acesso físico aos servidores locais
+
+segmentar as redes: criar redes menores (VLANS) para cada setor, uma vlan para faturamento, uma vlan para dp, rh etc
+
+hardening do sistema operacional; procedimento para fortalecimento do s.o.; para todos serviços não necessários, desabilitar contas desnecessárias
+
+segurança das aplicações:  
+
+choque router - filtragem inicial dos pacotes que entram ou saem da rede
+
+choke router: primeira linha de defesa
+
+utm: firewall que possuí regras mais específicas uma linha de defesa mais robusta
+
+Internet ( rede não confiável) acessa o choque router, que filtra os pacotes que entram e saem, depois é direcionado ao UTM que constitui um único ponto para troca de tráfego entre a rede confiável e a rede não confiável
+
+Elo mais fraco: O servidor interno deve ser acessado com segurança mas dessa vez a partir de uma rede não confiável(internet) uma solução seria a criação de uma VPN, com mecanismos de autenticação como credenciais fortes de difícil dedução
+*O elo mais fraco é a pessoa*
+
+a empresa investe no ativo mas não investe na conscientização do usuário.
+------------------------------------------------------------------------------------------------------
+
+CHECKPOINT: o conjunto choque router + utm formam o ponto de verificação (checkpoint) fazendo todo tráfego que adentra a rede confiável (LAN) poderá ser adequadamente inspecionado e submetido ás políticas de segurança configuradas
+*ponto único de entrada e saída*
+
+SEGURANÇA POR OBSCURIDADE: Mesmo que um sistema apresente vulnerabilidades sua segurança poderá ser mantida enquanto tais vulnerabilidades não se tornarem conhecidas por terceiros
+*Não dá segurança*
+----------------------------------------------------------------------------------------------------------
+PRINCÍPIO DA SIMPLICIDADE: manter um código simples para facilitar seu entendimento e então deixa-lo menos vulnerável
+Códigos complexos podem deixar brechas para encontrar vulnerabilidades
+
+SEGREGAÇÃO DE FUNÇÕES: um único usuário não deve ser responsável unicamente por uma função importante, sendo ela devidamente compartilhada com outros 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
