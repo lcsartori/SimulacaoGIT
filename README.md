@@ -1,2 +1,2 @@
 # SimulacaoGIT
-Exercício simulado de uso as ferramentas GIT
+Exercício simulado de uso as ferramentas GIT - HUB + GUI
